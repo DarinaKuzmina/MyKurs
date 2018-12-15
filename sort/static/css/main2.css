@@ -1,0 +1,17 @@
+
+h1 {
+    color: #FFF8DC;
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 100px;
+}
+
+p {
+    color: #FFF8DC;
+    font-family: 'New Century Schoolbook', cursive;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+h2 {font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;}

@@ -1,0 +1,28 @@
+@keyframes go-left-right {   /* назовём анимацию: "go-left-right" */
+  from {
+    left: 0px;               /* от: left: 0px */
+  }
+  to {
+    left: calc(20%); /* до: left: 100%-50px */
+  }
+}
+
+
+.progress {
+  animation: go-left-right 3s 2 alternate;
+
+  position: relative;
+  border: 2px solid green;
+  width: 50px;
+  height: 20px;
+  background: lime;
+}
+.progress1 {
+  animation: go-left-right 3s 1;
+
+  position: relative;
+  border: 2px solid green;
+  width: 50px;
+  height: 20px;
+  background: lime;
+}

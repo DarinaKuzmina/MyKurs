@@ -1,0 +1,71 @@
+h1 {
+    color: #FFF8DC;
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #FFF8DC;
+    font-family: "Times New Roman", cursive;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+
+h3 {font: italic bold 6px/1.5 Times, 'New Century Schoolbook', serif;}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #483D8B;
+  border: none;
+  color: #F0F8FF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+	opacity: 0;
+}
